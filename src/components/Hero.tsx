@@ -68,7 +68,7 @@ export function Hero({ onApply, onDiscovery }: { onApply: () => void; onDiscover
           animate="show"
           className="flex flex-col items-center"
         >
-          {/* RASA affiliation badge */}
+          {/* Location badge */}
           <motion.div variants={fadeUp} className="mb-8">
             <span
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-widest uppercase"
@@ -80,7 +80,7 @@ export function Hero({ onApply, onDiscovery }: { onApply: () => void; onDiscover
               }}
             >
               <span className="w-1.5 h-1.5 rounded-full bg-sage-light animate-pulse" />
-              RASA Merseyside Affiliated
+              Harley Street London W1G
             </span>
           </motion.div>
 

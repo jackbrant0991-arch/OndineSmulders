@@ -31,7 +31,7 @@ const testimonials = [
   },
   {
     name: 'J.',
-    quote: "I spent years in talk therapy circling the same stories. Lisa's somatic approach helped me release what words never could. I finally feel safe in my own skin.",
+    quote: "I spent years in talk therapy circling the same stories. Ondine's existential approach helped me release what words never could. I finally feel safe in my own skin.",
     weeks: '8 weeks',
   },
   {
