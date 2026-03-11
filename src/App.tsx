@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { ProofBar } from './components/ProofBar';
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#FDFDF8' }}>
+      <Analytics />
       {/* Scroll-driven journey indicator (Desktop) */}
       <JourneyLine />
 
